@@ -1,4 +1,4 @@
-package controller;
+package de.tnohe.penpaper.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
