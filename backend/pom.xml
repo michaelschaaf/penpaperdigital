@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>penpaperdigital-backend</artifactId>
+    <artifactId>backend</artifactId>
 
     <dependencies>
         <dependency>
@@ -53,8 +53,19 @@
     </dependencies>
 
     <build>
-        <finalName>penpaperdigital-backend</finalName>
+        <finalName>penpaperdigital-${project.parent.version}</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
