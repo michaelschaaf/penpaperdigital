@@ -1,4 +1,4 @@
-package de.tnohe.app;
+package de.tnohe.penpaper.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
