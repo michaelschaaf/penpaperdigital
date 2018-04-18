@@ -1,4 +1,4 @@
-package de.tnohe.main;
+package de.shekhargulati.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
