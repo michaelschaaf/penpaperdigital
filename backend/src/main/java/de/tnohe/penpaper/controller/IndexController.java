@@ -10,7 +10,7 @@ public class IndexController {
 
     @RequestMapping( value = "/", method = RequestMethod.GET )
     public String index() {
-        return "eine insel mit zwei bergen";
+        return "Eine Insel mit zwei Bergen";
     }
 
 }
